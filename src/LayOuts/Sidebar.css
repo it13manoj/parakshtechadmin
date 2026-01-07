@@ -1,0 +1,14 @@
+.sidebar-link {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-second-level {
+  padding-left: 20px;
+}
+
+.active > .nav-second-level {
+  display: block;
+}
